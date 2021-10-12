@@ -13,5 +13,8 @@
 # nodeMCU codes
 * Basic source codes are inside nodeMCU_codes
 
+# python codes
+* Basic source codes to create the resource tree
+
 
 
