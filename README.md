@@ -9,6 +9,7 @@
 # POSTMAN collection 
 * The postman collection is inside POSTMAN_collection
 * Import the collection in POSTMAN as explained in: https://apitransform.com/how-to-import-a-collection-into-postman/
+* To create the resource tree, send the POST requests (create ae > create cnt > create cin)
 
 # nodeMCU codes
 * Basic source codes are inside nodeMCU_codes
