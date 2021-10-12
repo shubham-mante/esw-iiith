@@ -24,7 +24,7 @@
 # Resource Tree Creation
 * Start the OM2M platform by executing the "start.bat" script on Windows or "start.sh" on Linux and Mac OS.
 * Run create_resource_tree.py to create the oneM2M resource tree 
-* Open http://127.0.0.1:8080/webpage/welcome/index.html?context=/~&cseId=in-cse in browser.
+* Open http://127.0.0.1:8080/webpage/ in browser.
 * Enter username:password = admin:admin
-* You should see the resource tree; https://github.com/shubham-mante/esw-iiith/blob/main/images/sample_resource_tree.png
+* You should see the resource tree (https://github.com/shubham-mante/esw-iiith/blob/main/images/sample_resource_tree.png)
 
