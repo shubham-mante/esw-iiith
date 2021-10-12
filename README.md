@@ -4,7 +4,7 @@
 * Download the latest version of OM2M platform: https://wiki.eclipse.org/OM2M/Download
 
 # POSTMAN
-* Download and install the POSTMAN software: http://www.postman.com
+* Download and install the POSTMAN REST client: http://www.postman.com
 
 # POSTMAN_collection 
 * The postman collection is inside POSTMAN_collection
