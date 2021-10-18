@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "e184e2d2-817f-46da-a31e-3689b1215196",
+		"_postman_id": "0b6f2fdf-d769-45e3-95d4-5a61096ce723",
 		"name": "OM2M REST APIs",
 		"description": "The collection contains API requests samples to send HTTP request (GET, POST, UPDATE, DELETE) to the OM2M platform. ",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
@@ -360,6 +360,52 @@
 						"in-cse",
 						"in-name",
 						"Test-AE"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update cnt attrs",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "X-M2M-Origin",
+						"value": "admin:admin",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json;ty=3",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"m2m:cnt\":{\n        \"lbl\": [\n            \"Label-3\",\n            \"Label-4\"\n        ],\n        \"mni\": 222\n\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/~/in-cse/in-name/Test-AE/Data-1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"~",
+						"in-cse",
+						"in-name",
+						"Test-AE",
+						"Data-1"
 					]
 				}
 			},
