@@ -21,13 +21,13 @@ uint32_t delayMS;
   
 // ##################### Update the Wifi SSID, Password and IP adress of the server ##########
 // WIFI params
-char* WIFI_SSID = "WiFi-SSID"; 
-char* WIFI_PSWD = "WiFi-Password";
+char* WIFI_SSID = "GalaxyM21"; 
+char* WIFI_PSWD = "agtp5971";
 
 //SERVER IP ADDRESS
 //For Local host: 1) If you are using Windows OS then use command "ipconfig" in Command Prompt to find IPV4 address and use that. 
 //                2) If you are using Linux OS then use command "ifconfig" in terminal to find IPV4 address and use that. 
-String CSE_IP      = "CSE-IP";  
+String CSE_IP      = "192.168.203.135";  
 // #######################################################
 
 int WIFI_DELAY  = 100; //ms
